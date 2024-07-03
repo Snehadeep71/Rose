@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .o1sec-01{
-    background: url(images/outlet1h.jpg) no-repeat;
+    background: url(outlet1h.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -318,20 +318,20 @@ content: '';
     color: #000;
 }
 .smenu-item a:nth-child(1) .menu1 {
-    background-image: url(images/appetizers2.jpg);
+    background-image: url(appetizers2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .smenu-item a:nth-child(2) .menu1{
-    background-image: url(images/main-course1.avif);
+    background-image: url(main-course1.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
    
 }
 .smenu-item a:nth-child(3) .menu1{
-    background-image: url(images/dessert-image1.avif);
+    background-image: url(dessert-image1.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
