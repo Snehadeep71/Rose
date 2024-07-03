@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYSU-Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="menulight.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="index.html" class="nav__logo">
+                 <i class="ri-planet-line"></i>NYSU
+              </a>
+  
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+  
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="about.html" class="nav__link">About Us</a></li>
+  
+                 <li><a href="ourblogs.html" class="nav__link">Our Blogs</a></li>
+  
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Our Outlets <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+  
+                    <ul class="dropdown__menu">
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 1<i
+                                   class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                               <!-- <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i>Team paper writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i>Academic writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i>Essay writing help
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i>Narrative writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i>Argumentative essay writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i> Scholarship essay writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i> Analytical essay writing
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i> Persuasive essay
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i> Expository essay
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-refund-2-line"></i> Descriptive essay
+                                  </a>
+                               </li>-->
+                            </ul> 
+                       </li>
+  
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 2<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                               <!-- </li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-file-list-line"></i> Dissertation Writing
+                                  </a>
+                               </li> -->
+                            </ul> 
+                       </li>
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 3<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                               <!-- </li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-file-list-line"></i> Dissertation Writing
+                                  </a>
+                               </li> -->
+                            </ul> 
+                       </li>
+  
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> Outlet 4<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                             <!-- <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Pay someone do my homework
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Coursework help
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Thesis writing help
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Powerpoint presentation services
+                                </a>
+                             </li> -->
+                          </ul>
+                       </li>
+                    </ul>
+                 </li>
+                 <li><a href="contact.html" class="nav__link">Contact</a></li>
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li><a href="ourculture.html" class="nav__link">Our Culture</a></li>
+  
+                    <!-- <ul class="dropdown__menu">
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-user-line"></i> Samples
+                            </a>
+                         </li>
+    
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-lock-line"></i> Blogs
+                            </a>
+                         </li>
+    
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-message-3-line"></i> Answers
+                            </a>
+                         </li>
+                      </ul> -->
+                 </li>
+  
+              </ul>
+           </div>
+        </nav>
+     </header>
+    <section class="msec-01">
+        <div class="mtext">
+            <h1>Our Menu</h1>
+            <p>Massa praesent sit suspendisse ac volutpat amet. <br> Commodo elit at non neque ullamcorper id.</p>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-012">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu1.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Appetizer</h2>
+                <p>Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac
+                    dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc
+                    cum massa.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>Strawberry and Grapes Cake</h1>
+                    <p style="color: #8f8e8e;">In lorem ornare sollicitudin aliquet nunc cum massa.</p>
+                    <p>9.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon-wrapped Shrimp with Garlic <span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Wrapped Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Skewers <span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-0123">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu2.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Main Courses</h2>
+                <p>Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac
+                    dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc
+                    cum massa.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s3.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>NYUS Toasted Bread with Grape</h1>
+                    <p style="color: #8f8e8e;">In lorem ornare sollicitudin aliquet nunc cum massa.</p>
+                    <p>8.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon-wrapped Shrimp with Garlic <span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Wrapped Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Skewers <span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-01234">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu3.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Dessert</h2>
+                <p>Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac
+                    dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc
+                    cum massa.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>Cheesy Fruits Cake</h1>
+                    <p style="color: #8f8e8e;">In lorem ornare sollicitudin aliquet nunc cum massa.</p>
+                    <p>10.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon-wrapped Shrimp with Garlic <span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;15.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Wrapped Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Kofka Skewers with Tzatziki<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+            <div class="menuitem1">
+                <h5>Lemon and Garlic Green Beans <span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Bacon Shrimp with Garlic<span>-&nbsp;&nbsp;21.50</span></h5>
+                <h3>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Lamb-beef Skewers <span>-&nbsp;&nbsp;18.50</span></h5>
+                <h3>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>Imported Oysters Grill (5 Pieces)<span>-&nbsp;&nbsp;20.00</span></h5>
+                <h3>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+    </section>
+    <section class="sec-08">
+        <div class="reservation-container">
+            <h2>Reservation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deleniti temporibus voluptas quod ipsa
+                magnam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quisquam!</p>
+            <button class="btn3">Book A Table Now</button>
+            <h5>Telephone Reservations</h5>
+            <p id="ph">12 34 56 7890</p>
+        </div>
+    </section>
+    <footer class="footer1">
+      <div class="rows">
+         <div class="row1">
+            <h2>NYUS</h2>
+            <div class="col1">
+               <p>Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis
+                  adipiscing donec. Et ut morbi magna quis purus aliquet.</p>
+            </div>
+            <div class="social">
+               <div><i class="fa-brands fa-facebook"></i></div>
+               <div><i class="fa-brands fa-instagram"></i></div>
+               <div><i class="fa-brands fa-youtube"></i></div>
+               <div><i class="fa-brands fa-x-twitter"></i></div>
+               <div><i class="fa-brands fa-whatsapp"></i></div>
+            </div>
+         </div>
+         <div class="row1">
+            <h2>Our Location</h2>
+            <div class="col1">
+               <p id="lp">3 E 19th St, 123 Fifth Avenue,
+                  NY 10160, New York, USA </p>
+               <p>1 234 567 890</p>
+               <a href="https://maps.app.goo.gl/9jk9VaBw3S11vC8u9" target="_blank">
+                  <p id="dp"><i class="fa-solid fa-location-dot"></i>Get Direction</p>
+               </a>
+            </div>
+         </div>
+         <div class="row1">
+            <h2>Quick Link</h2>
+            <div class="col2">
+               <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li class="dropdown__item">
+                     <div class="dropdown__link">
+                        Our Outlets <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li class="dropdown__subitem">
+                           Outlet 1
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 2
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 3
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 4
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="ourblogs.html">Our Blogs</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="ourculture.html">Our Culture</a></li>
+               </ul>
+            </div>
+
+         </div>
+         <div class="row1">
+            <h2>Opening Hours</h2>
+            <div class="col3">
+               <span><i class="fa-solid fa-clock"></i>&nbsp;&nbsp;Monday to Saturday</span>
+               <p>9 AM to 10.30PM</p>
+               <span id="s2"><i class="fa-solid fa-clock"></i>&nbsp;&nbsp;Thursday -Saturday</span>
+               <p id="p3">9AM - 12.30AM</p>
+            </div>
+
+         </div>
+      </div>
+      <hr>
+      <div class="copyright">
+         <div class="copy">Copyright © 2024 Deli Restaurant</div>
+         <div class="copy2">Powered by Deli Restaurant</div>
+      </div>
+   </footer>
+</body>
+
+</html>

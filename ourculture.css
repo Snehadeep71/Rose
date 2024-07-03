@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.culsec-01{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/ourculture1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.culheading{
+    display: flex;
+    max-width: 800px;
+    height: inherit;
+    position: relative;
+    margin-left: 10%;
+    
+}
+.culheading h1{
+    position: absolute;
+    text-align: left;
+    margin-top: 30%;   
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.culheading p{
+    position: absolute;
+    text-align: left;
+    margin-top: 40%;   
+    width: 100%;
+    height: inherit;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.culsec-02{
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    /* text-align: center;
+    justify-content: center; */
+    width: 100%;    
+    min-height: 40vh;
+    margin: 30px;
+    background-color: whitesmoke;
+}
+.cultext{
+    text-align: left;
+    width: 70%;
+    justify-content: center;
+    align-items: left;
+    
+}
+.cultext p{
+    color: #000;
+    text-align: left;
+    justify-content: center;
+    line-height: 2;
+    margin-left: 70px;
+}
+/*----------------css for section 3 starts here-------------------------*/
+.culsec-03{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #eaeaea;
+    
+}
+.culwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.culleft,.culright{
+    display: flex;
+    width: 45%;
+    gap: 20px;
+    
+}
+.culleft img{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+ .culrighttext h2{
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    
+}
+ .culrighttext p{
+    text-align: left;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    margin-left: 50px;
+    
+}
+@media only screen and (min-width: 150px) and (max-width: 786px) {
+    .culsec-03 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .culwrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .culleft {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .culleft img {
+        width: 80%;
+        height: auto;
+    }
+
+    .culright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .culrighttext {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .culheading{
+        display: flex;
+        flex-direction: column;
+    }
+    .culheading h1{
+        margin-bottom: 30%;
+        font-size: 2rem;
+    }
+    .culheading p{
+        margin-top: 50%;
+        font-size: 1.2rem;
+    }
+}
+/*----------------css for section 3 ends here-------------------------*/
