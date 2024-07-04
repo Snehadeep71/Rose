@@ -88,7 +88,7 @@
     margin-bottom: 50px;
     line-height: 1.6;
 }
-@media only screen and  (min-width:200px) and (max-width:786px){
+@media only screen and  (min-width:200px) and (max-width:1336px){
     .blogsec-01{
         overflow-x: hidden;
         width: 100%;
