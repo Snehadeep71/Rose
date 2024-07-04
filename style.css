@@ -400,7 +400,7 @@ a {
   width: 100%;
   margin: auto;
   min-height: 100vh;
-  background: url(homepage-hero-bg-img.jpg);
+  background: url(images/homepage-hero-bg-img.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: cover
@@ -458,7 +458,7 @@ a {
   margin-top: 40px;
   width: 300px;
   text-align: center;
-  background-image: url(fd2.jpg);
+  background-image: url(images/fd2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -760,7 +760,7 @@ a {
   flex-direction: column;
   min-height: 60vh;
   width: 100%;
-  background: url(signeture-bg.jpg) no-repeat;
+  background: url(images/signeture-bg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -847,7 +847,7 @@ h2 {
   width: 100%;
   min-height: 100vh;
   background-color: #fff;
-  margin: 38px;
+  /* Removed margin to prevent horizontal overflow */
   padding: 38px;
   margin-top: 90px;
   box-sizing: border-box;
@@ -858,8 +858,9 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 40%;
-  /* width: 100%; */
+  /* Set to 45% to account for padding/margin */
+  width: 45%;
+  box-sizing: border-box;
 }
 
 .teamcontent .teamtext h2 {
@@ -882,9 +883,6 @@ h2 {
 }
 
 .teamrightcontainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin: 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -911,7 +909,7 @@ h2 {
   min-height: 50vh;
   width: 100%;
   justify-content: space-between;
-  background: url(t1.jpg) no-repeat;
+  background: url(images/t1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 40px 0;
@@ -1179,16 +1177,37 @@ h2 {
     width: 100%;
   }
   /*------------sec-03 resonsive design ends here---------------*/
-  .sec-06{
-    overflow-x: hidden;
-    width: 100%;
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
+  /*------------sec-06 resonsive design starts here---------------*/
+  .sec-06 {
+    flex-direction: column;
+    padding: 20px; /* Adjust padding for small screens */
   }
-  .teamtext{
-    margin-right: 60px;
+
+  .teamleftcontainer,
+  .teamrightcontainer {
+    width: 100%; /* Full width for small screens */
+    padding: 0; /* Remove padding to prevent overflow */
+    margin: 0; /* Remove margin to prevent overflow */
   }
+
+  .teamcontent .teamtext h2 {
+    font-size: 2rem; /* Adjust font size for small screens */
+  }
+
+  .teamcontent .teamtext p {
+    font-size: 1rem; /* Adjust font size for small screens */
+  }
+
+  #image1,
+  #image2 {
+    width: 100%; /* Full width for small screens */
+    margin-top: 20px;
+  }
+
+  #image2 {
+    margin-top: 20px; /* Adjust margin for small screens */
+  }
+   /*------------sec-06 resonsive design ends here---------------*/
   .sec-07{
     overflow-x: hidden;
     width: 100%;
