@@ -6,7 +6,7 @@
 .blogsec-01{
     width: 100%;
     min-height: 100vh;
-    background-image: url(ourblog1.webp);
+    background-image: url(images/ourblog1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,10 +73,6 @@
 .rightblog{
     width: 70%;
 }
-/* .blogheading{
-    display: flex;
-    flex-direction: column;
-} */
 .blogheading2{
     margin-top: 50px;
 }
@@ -93,10 +89,22 @@
     line-height: 1.6;
 }
 @media only screen and  (min-width:200px) and (max-width:786px){
+    .blogsec-01{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .blogsec-02{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+    }
     .blog-wrapper{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
     .rightblog .blogheading2{
         justify-content: center;
@@ -121,6 +129,11 @@
         margin-top: 50%;
         margin-left: 20px;
         font-size: 1rem;
+    }
+    .leftblog img {
+        width: 100% !important;
+        min-width: 0; /* Ensure no minimum width restrictions */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 /*-----------------------------sec -02 ends here----------------------------*/
