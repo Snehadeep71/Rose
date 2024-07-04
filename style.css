@@ -989,7 +989,7 @@ h2 {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1336px) {
   .sec-07 {
     width: 100%;
     padding: 20px 0;
@@ -1099,7 +1099,7 @@ h2 {
   margin-bottom: -130px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 786px) {
+@media only screen and (min-width: 200px) and (max-width: 1336px) {
   .sec-01 {
     width: 100%;
     height: auto;
@@ -1129,7 +1129,7 @@ h2 {
   }
 
  /*sec-02 resonsive design---------------*/
- @media (max-width: 768px) {
+ @media (max-width: 1336px) {
   .left-container02, .right-container02 {
      max-width: 100%; /* Full width on smaller screens */
      padding: 0; /* Reset padding on smaller screens */
@@ -1503,7 +1503,7 @@ footer hr {
 }
 
 /* Media Queries for Responsive Design */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1336px) {
   .rows {
     width: 100%;
     flex-direction: column;
