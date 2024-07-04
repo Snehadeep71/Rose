@@ -400,7 +400,7 @@ a {
   width: 100%;
   margin: auto;
   min-height: 100vh;
-  background: url(images/homepage-hero-bg-img.jpg);
+  background: url(homepage-hero-bg-img.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: cover
@@ -458,7 +458,7 @@ a {
   margin-top: 40px;
   width: 300px;
   text-align: center;
-  background-image: url(images/fd2.jpg);
+  background-image: url(fd2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -760,7 +760,7 @@ a {
   flex-direction: column;
   min-height: 60vh;
   width: 100%;
-  background: url(images/signeture-bg.jpg) no-repeat;
+  background: url(signeture-bg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -909,7 +909,7 @@ h2 {
   min-height: 50vh;
   width: 100%;
   justify-content: space-between;
-  background: url(images/t1.jpg) no-repeat;
+  background: url(t1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 40px 0;
