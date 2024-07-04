@@ -347,7 +347,7 @@
 }
 
 /*-------------------------------about sec-04 css ends  here-----------------------------*/
-@media only screen and (min-width: 150px) and (max-width: 786px){
+@media only screen and (min-width: 150px) and (max-width: 1336px){
     .asec-01{
         width: 100%;
         overflow-x: hidden;
