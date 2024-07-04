@@ -9,7 +9,7 @@
 .csec-01{
     width: 100%;
     min-height: 100vh;
-    background: url(contactbcg.jpg) no-repeat;
+    background: url(images/contactbcg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -152,6 +152,9 @@
     transition: all 0.3s;
 }
 @media only screen and  (min-width:200px) and (max-width:786px){
+    .csec-02{
+        overflow-x: hidden;
+    }
     .contactrightcontainer{
         display: flex;
         flex-direction: column;
@@ -163,6 +166,9 @@
         flex-direction: column;
         width: 100%;
         height: auto; 
+    }
+    .formcontainer #name,#email,#tx{
+        width: 350px;
     }
 }
 /*-------------------------------------contact sec -02 css ends here-----------------------------*/
