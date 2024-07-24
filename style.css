@@ -93,7 +93,8 @@ a {
   text-align: center;
   
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
+  background-color: #e3010f;
   z-index: var(--z-fixed);
 }
 
@@ -122,9 +123,12 @@ a {
   font-weight: var(--font-semi-bold);
 }
 
-.nav__logo i {
+.nav__logo img {
   font-weight: initial;
   font-size: 1.25rem;
+  width: 200px;
+   padding:20px;
+   height: auto;
 }
 
 .nav__toggle {
@@ -304,6 +308,10 @@ a {
   .nav__link {
     padding-inline: 1rem;
   }
+  .nav__logo img{
+    width: fit-content;
+    height: auto;
+  }
 }
 
 /* For large devices */
@@ -384,6 +392,7 @@ a {
     pointer-events: initial;
     transition: top .3s;
   }
+ 
 }
 /*-------------------------responsive navbar design new starts here------------------*/
 
@@ -989,7 +998,7 @@ h2 {
 }
 
 /* Responsive Design */
-@media (max-width: 1336px) {
+@media (max-width: 768px) {
   .sec-07 {
     width: 100%;
     padding: 20px 0;
@@ -1335,7 +1344,7 @@ h2 {
 .row1 .col2 ul li a {
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-size: 1rem;
 }
 
@@ -1389,7 +1398,7 @@ h2 {
 /* Style the dropdown submenus */
 .footer1 .dropdown__menu {
   position: absolute;
-  top: 100%;
+  top: 40px !important;
   left: 0;
   display: none;
   /* Hide dropdown menu by default */
@@ -1397,9 +1406,10 @@ h2 {
   text-align: center;
   justify-content: center;
   color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
-  font-size: 14px;
+  font-size: 12px;
+  margin-bottom: 20px;
   /* Adjust submenu font size */
 }
 
@@ -1413,7 +1423,7 @@ h2 {
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1001;
-  font-size: 14px;
+  font-size: 12px;
   /* Adjust submenu font size */
 }
 
@@ -1503,7 +1513,7 @@ footer hr {
 }
 
 /* Media Queries for Responsive Design */
-@media only screen and (max-width: 1336px) {
+@media only screen and (max-width: 768px) {
   .rows {
     width: 100%;
     flex-direction: column;
@@ -1534,7 +1544,7 @@ footer hr {
 }
 
 /* Adjustments for Mobile Devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1336px) {
   .footer1 .col2 ul {
     padding-left: 0;
     /* Remove left padding from ul */
@@ -1553,7 +1563,7 @@ footer hr {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: transparent;
+    background-color: #fff;
     /* Background color for dropdown */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Box shadow for dropdown */
@@ -1572,7 +1582,7 @@ footer hr {
     padding: 10px 20px;
     /* Adjust padding for main dropdown items */
     cursor: pointer;
-    color: #333;
+    color: #fff;
     /* Text color for main dropdown items */
     text-decoration: none;
     display: block;
