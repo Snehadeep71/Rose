@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 .o1sec-01{
-    background: url(outlet1h.jpg) no-repeat;
+    background: url(phoolbagan-outlet-bcg.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
+    
 }
 .o1sec-01 .outletheading {
     display: flex;
@@ -35,6 +36,101 @@
     font-size: 1.5rem;
     font-weight: bolder;
 }
+/*----------------social media css starts here------------------*/
+.sm {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    overflow-x: hidden;
+}
+
+.sm h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.sm1{
+    border: 2px solid lightgray;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    margin-bottom: 30px;
+    gap: 20px;
+    
+    
+}
+.sm1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.sm1img img{
+    width: 298px;
+    height: 300px;
+    border-radius: 10px;
+}
+.sm01{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.sm1content{
+    line-height: 1.8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sm1content button{
+    bottom: 0;
+    width: 200px;
+    height: 35px;
+    margin-top: auto;
+}
+.btn3{
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.btn3 a{
+    color: #000;
+}
+.sm1content .btn3:hover a{
+    color: #fff;
+    
+}
+@media only screen and (min-width:200px) and (max-width:1336px){
+    .sm {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sm1{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+    .o1sec-01{
+        overflow-x: hidden;
+    }
+}
+/*----------------social media css ends here------------------*/
 /*-------------------------------gallery slider css starts here---------------*/
 .gallery{
     width: 900px;
@@ -51,8 +147,11 @@
 }
 .gallery div img{
     width: 100%;
+    width: 280px;
+    height: 280px;
     filter:grayscale(100%);
     transition: transform 0.5s;
+    gap: 20px;
 
 }
 .gallery::-webkit-scrollbar{
@@ -106,7 +205,7 @@
 .galleryheading h1::before{
   content: '';
   position: absolute;
-  bottom: -15px;
+  bottom: -14.5px;
   left: 50%;
   width: 240px;
   height: 3px;
@@ -117,7 +216,7 @@
 .galleryheading h1::after{
 content: '';
   position: absolute;
-  bottom: -16px;
+  bottom: -15px;
   left: 50%;
   width: 45px;
   height: 6px;
@@ -189,13 +288,14 @@ content: '';
     align-items: center;
     width: 1000px;
     margin: 0 auto;
+    height: auto;
 }
 .packs:hover{
     cursor: pointer;
 }
 .pack{
     width: 280px;
-    height: 250px;
+    height: auto;
     border-radius: 15px;
     margin: 7px;
     padding: 20px 30px;
@@ -212,6 +312,10 @@ content: '';
     position: absolute;
     top: -40px;
     left: 20px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
 }
 .pack p{
     font-size: 16px;
@@ -235,13 +339,16 @@ content: '';
     color: #b2bec3;
 }
 .pack:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
     color: #333;
     background: #fff;
     z-index: 10000;
 }
+.pack:hover h2{
+    color: #000;
+}
 /*---responsive design--------*/
-@media (max-width: 768px){
+@media (max-width: 1336px){
     .wrapper{
         width: 100%;
         flex-direction: column;
@@ -253,6 +360,9 @@ content: '';
     }
     .pack{
         margin: 40px 0;
+    }
+    .btn8{
+        margin-top: 50px;
     }
 }
 /*-------------------------------testimonial slider css ends here-----------------*/
@@ -290,7 +400,7 @@ content: '';
     height: 3px;
     background-color: red;
     left: 50%;
-    bottom: -14px;
+    bottom: -13px;
     transform: translateX(-50%);
 
 }
@@ -309,7 +419,8 @@ content: '';
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    height: auto;
+    margin-bottom: 130px;
     /* width: 1170px; */
 
 }
@@ -318,20 +429,36 @@ content: '';
     color: #000;
 }
 .smenu-item a:nth-child(1) .menu1 {
-    background-image: url(appetizers2.jpg);
+    background-image: url(indian.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .smenu-item a:nth-child(2) .menu1{
-    background-image: url(main-course1.avif);
+    background-image: url(chinese.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
    
 }
 .smenu-item a:nth-child(3) .menu1{
-    background-image: url(dessert-image1.avif);
+    background-image: url(pastaandpizza.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    
+
+}
+.smenu-item a:nth-child(4) .menu1{
+    background-image: url(southindian.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    
+
+}
+.smenu-item a:nth-child(5) .menu1{
+    background-image: url(wrapsandrolls.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
